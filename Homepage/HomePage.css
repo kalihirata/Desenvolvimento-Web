@@ -6,7 +6,7 @@
 
 .list-group::before {
   content: " ";
-  background-image: url("BackgroundHome.jpg");
+  background-image: url("../Images/BackgroundHome.jpg");
   background-size: contain;
   display: block;
   position: absolute;
