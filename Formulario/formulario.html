@@ -74,8 +74,7 @@
       </div>
     </nav>
 
-    <div class="list-group">
-      <main>
+    
         <section class="py-5 text-center container">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
@@ -84,7 +83,8 @@
           </div>
         </section>
 
-        <form>
+        <form class="container formulario">
+            <div class="list-group">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo: Maria Aparecida Souza">
                 <label for="floatingInput">Nome Completo</label>
@@ -105,8 +105,8 @@
             <div class="input-group mb-3">
                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de documento</button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">RG</a></li>
-                  <li><a class="dropdown-item" href="#">CPF</a></li>
+                  <li><a class="dropdown-item">RG</a></li>
+                  <li><a class="dropdown-item">CPF</a></li>
                 </ul>
                 <input type="number" class="form-control" placeholder="Exemplo: 12345678900" aria-label="Number input with dropdown button">
              
@@ -179,12 +179,10 @@
                 </label>
             </div>
 
-        
             <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
           </form>
-        
-      </main>
-    </div>
+  
 
     <footer class="footer py-3">
       <div class="container">
