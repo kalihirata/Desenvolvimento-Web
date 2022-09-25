@@ -26,4 +26,14 @@
   width: 220px;
   border: none;
   align-self: center;
+}
+
+@font-face {
+  font-family: "leckerli-one-regular";
+  src: url("../Fontes/leckerli-one-regular.ttf");
+}
+.fw-light {
+  font-family: "leckerli-one-regular";
+  color: #E6863A;
+  font-size: 100px;
 }/*# sourceMappingURL=homepage.css.map */
