@@ -84,6 +84,7 @@
         </section>
 
         <form class="container formulario">
+            <label for="formFile" class="form-label mt-4 form-section-name">Dados Pessoais</label>
             <div class="list-group">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo: Maria Aparecida Souza">
@@ -91,30 +92,92 @@
                 <div id="nameHelp" class="form-text">Nome completo sem abreviações</div>
             </div>
 
-            <div class="form-floating mb-3">
+            <div class="form-floating mb-3 mt-3">
                 <input type="email" class="form-control" id="floatingInput" placeholder="nome@examplo.com.br" aria-label="nome@examplo.com.br" aria-describedby="basic-addon1">
                 <label for="floatingInput">E-mail</label>
+                <div id="emailHelp" class="form-text">Nós nunca divulgaremos seu e-mail</div>
             </div>
-            <div id="emailHelp" class="form-text">Nós nunca divulgaremos seu e-mail</div>
+          
             </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo: Maria">
-                <label for="floatingInput">Apelido</label>
-                <div id="nameHelp" class="form-text">Escreva como gostaria de ser chamado</div>
+            
+            <div class="row g-2">
+                <div class="form-floating col-sm-7">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="City" aria-label="City">
+                  <label for="floatingInput">Apelido</label>
+                  <div id="nameHelp" class="form-text">Escreva como gostaria de ser chamado</div>
+                </div>
+                <div class="form-floating col-sm">
+                  <input type="date" class="form-control" size="10" id="floatingInput" placeholder="Zip" aria-label="Zip">
+                  <label for="floatingInput">Data de Nascimento</label>
+                </div>
+              </div>
+
+              <div class="row g-2 mt-3">
+                <div class="form-floating col-sm-7">
+                  <input type="number" class="form-control" id="floatingInput" placeholder="City" aria-label="City">
+                  <label for="floatingInput">Telefone</label>
+                  <div id="nameHelp" class="form-text">Escreva o telefone/celular sem símbolos e com o DDD. Exemplo: 019123456789</div>
+                </div>
+                <div class="form-floating col-sm">
+                  <input type="number" class="form-control" size="10" id="floatingInput" placeholder="Zip" aria-label="Zip">
+                  <label for="floatingInput">Celular</label>
+                </div>
+              </div>
+
+      
+                <div class="input-group mt-4">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de documento</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item">RG</a></li>
+                      <li><a class="dropdown-item">CPF</a></li>
+                    </ul>
+                    <input id="nickHelp" type="number" class="form-control" placeholder="Exemplo: 12345678900" aria-label="Number input with dropdown button">
+                </div>
+                <label class="form-text" for="nickHelp">Escreva o número do documento sem símbolos, como pontos ou traços</label>
             </div>
-            <div class="input-group mb-3">
-                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de documento</button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item">RG</a></li>
-                  <li><a class="dropdown-item">CPF</a></li>
-                </ul>
-                <input type="number" class="form-control" placeholder="Exemplo: 12345678900" aria-label="Number input with dropdown button">
-             
-            </div>
-            <div id="nickHelp" class="form-text">Escreva o número do documento sem símbolos, como pontos ou traços</div>
-            <div class="mb-3">
+            <div class="mb-3 mt-4">
                 <label for="formFile" class="form-label">Inclua sua foto</label>
                 <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nome@examplo.com.br" aria-label="nome@examplo.com.br" aria-describedby="basic-addon1">
+                <label for="floatingInput">Rede Social</label>
+                <div id="emailHelp" class="form-text">Inclua o link de uma das suas redes sociais (Instagram, Twiter, Facebook, Linkedin, etc)</div>
+            </div>
+            <div>
+                <label for="formFile" class="form-label mt-4 form-section-name">Endereço</label>
+            </div>
+            
+            <div class="row g-2">
+                <div class="form-floating col-sm-7">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="City" aria-label="City">
+                  <label for="floatingInput">Avenida ou Rua</label>
+                </div>
+                <div class="form-floating col-sm">
+                  <input type="text" class="form-control" size="10" id="floatingInput" placeholder="Zip" aria-label="Zip">
+                  <label for="floatingInput">Número e Complemento</label>
+                </div>
+              </div>
+
+            <div class="row g-2 mt-2">
+                <div class="form-floating col-sm-7">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="City" aria-label="City">
+                  <label for="floatingInput">Cidade</label>
+                </div>
+                <div class="form-floating col-sm">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="State" aria-label="State">
+                  <label for="floatingInput">Estado</label>
+                </div>
+                <div class="form-floating col-sm">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Zip" aria-label="Zip">
+                  <label for="floatingInput">CEP</label>
+                </div>
+            </div>
+
+            
+
+            <div class="mt-4">
+                <label for="formFile" class="form-label form-section-name">Como gostaria de ajudar?</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -129,7 +192,7 @@
                 <label class="form-check-label" for="inlineRadio3"> Apadrinhar</label>
             </div>
 
-            <div class="form-floating">
+            <div class="form-floating mb-3 mt-4">
                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                     <option selected>Escolha seu pet</option>
                     <option value="1">Thunder</option>
@@ -149,14 +212,22 @@
             </div>
 
             
-            <div class="form-floating">
+            <div class="form-floating mt-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Motivo</label>
+            <div id="commentsHelp" class="form-text">Nos conte brevemente o motivo pelo qual optou por adotar, apadrinhar ou dar um lar temporário</div>
+            </div>
+
+
+            <div class="form-floating mt-4">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                 <label for="floatingTextarea2">Comentário</label>
-            </div>
             <div id="commentsHelp" class="form-text">Deixe seu comentário para nós</div>
+            </div>
+            
 
 
-            <div class="form-check form-switch">
+            <div class="form-check form-switch mt-4">
                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                 <label class="form-check-label" for="flexSwitchCheckChecked">Gostaria de receber notícias, informações sobre eventos ou artigos sobre a nossa ONG?</label>
             </div>
@@ -180,7 +251,7 @@
             </div>
 
         
-            <button type="submit" action="#" class="btn btn-primary">Submit</button>
+            <button type="submit" action="#" class="btn btn-danger mt-3">Submit</button>
           </form>
   
 

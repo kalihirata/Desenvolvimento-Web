@@ -38,4 +38,10 @@
   width: 190px;
   height: 190px;
   align-self: center;
+}
+
+.form-section-name {
+  font-family: "leckerli-one-regular";
+  color: #E6863A;
+  font-size: 30px;
 }/*# sourceMappingURL=formulario.css.map */
