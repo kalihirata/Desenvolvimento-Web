@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a29f9e;
+}
+
+.list {
+  display: flex;
+  gap: 140px;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .list {
+    flex-direction: row;
+  }
+}
+.images {
+  width: 150px;
+  height: 150px;
+  border: none;
+  align-self: center;
+}/*# sourceMappingURL=index.css.map */
