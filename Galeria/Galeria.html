@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>A Basic HTML5 Template</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="galeria.css" />
+    <link rel="stylesheet" href="../index.scss" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../Images/Logo.png" alt="Pet" width="80" height="74" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../Homepage/HomePage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formulário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Como Ajudar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Quem somos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="list-group">
+      <main>
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Galeria</h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog01.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Thunder
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>1 ano</p>
+                      <p> <strong>Sexo: </strong>Macho</p>  
+                      <p> <strong>Porte: </strong>Grande</p>
+                      <p> <strong>Status: </strong>Vacinado e castrado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat01.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Salem
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>3 meses</p>
+                      <p> <strong>Sexo: </strong>Macho</p>
+                      <p> <strong>Porte: </strong>Pequeno</p>
+                      <p> <strong>Status: </strong>Vacinado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat02.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Yuki
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>4 ano</p>
+                      <p> <strong>Sexo: </strong>Fêmea</p>
+                      <p> <strong>Porte: </strong>Médio</p>
+                      <p> <strong>Status: </strong>Vacinada e castrada</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog02.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Nina
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>1 ano</p>
+                      <p> <strong>Sexo: </strong>Fêmea</p>
+                      <p> <strong>Porte: </strong>Grande</p>
+                      <p> <strong>Status: </strong>Vacinada e castrada</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat03.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Chico
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>1 mês</p>
+                      <p> <strong>Sexo: </strong>Macho</p>
+                      <p> <strong>Porte: </strong>Pequeno</p>
+                      <p> <strong>Status: </strong>Vacinado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog03.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Fred
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>2 meses</p>
+                      <p> <strong>Sexo: </strong>Macho</p>  
+                      <p> <strong>Porte: </strong>Pequeno</p>
+                      <p> <strong>Status: </strong>Vacinado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat04.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Milly
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>4 meses</p>
+                      <p> <strong>Sexo: </strong>Fêmea</p>  
+                      <p> <strong>Porte: </strong>Pequena</p>
+                      <p> <strong>Status: </strong>Vacinada</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog04.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Tango
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>5 anos</p>
+                      <p> <strong>Sexo: </strong>Macho</p>  
+                      <p> <strong>Porte: </strong>Pequeno</p>
+                      <p> <strong>Status: </strong>Vacinado e castrado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat05.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Doug
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>2 anos</p>
+                      <p> <strong>Sexo: </strong>Macho</p>  
+                      <p> <strong>Porte: </strong>Médio</p>
+                      <p> <strong>Status: </strong>Vacinado e castrado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog05.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Lucca
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>3 meses</p>
+                      <p> <strong>Sexo: </strong>Macho</p>  
+                      <p> <strong>Porte: </strong>Pequeno</p>
+                      <p> <strong>Status: </strong>Vacinado</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Cat06.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Kika
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>6 meses</p>
+                      <p> <strong>Sexo: </strong>Fêmea</p>  
+                      <p> <strong>Porte: </strong>Pequena</p>
+                      <p> <strong>Status: </strong>Vacinada</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col margin-card">
+                <div class="card shadow-sm">
+                  
+                  <img src="../Images/Dog06.jpg" class="rounded-circle pet-image">
+         
+              
+                  <div class="card-body">
+                    <p class="card-pets">
+                      Molly
+                    </p>
+                    <p class="card-text">
+                      <p> <strong>Idade: </strong>3 anos</p>
+                      <p> <strong>Sexo: </strong>Fêmea</p>  
+                      <p> <strong>Porte: </strong>Médio</p>
+                      <p> <strong>Status: </strong>Vacinada e castrada</p>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+      </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        
+        <div style="display: flex">
+          <img src="../Images/Imagelink.png" height="115px" weight="115px">
+        <div>
+          <h5 class="card-title">Quer ajudar?</h5>
+          <p class="card-text"> Interessado(a) em adotar, apadrinhar ou dar um lar temporário para um ou mais dos nossos bichinhos da galeria, clique no link</p>
+          <a href="#" class="btn btn-outline-danger">Formulário</a>
+        </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "leckerli-one-regular";
+  src: url("../Fontes/leckerli-one-regular.ttf");
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a29f9e;
+}/*# sourceMappingURL=Index.css.map */
