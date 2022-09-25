@@ -1,8 +1,7 @@
 @font-face {
   font-family: "leckerli-one-regular";
-  src: url("../Fontes/leckerli-one-regular.ttf");
+  src: url("./Fontes/leckerli-one-regular.ttf");
 }
-
 .background {
   position: absolute;
   z-index: -1;
@@ -12,12 +11,17 @@
   align-items: center;
   justify-content: center;
   opacity: 0.1;
-  background-image: url("Images/Background.png");
+  background-image: url("./Images/background.png");
   background-size: contain;
+}
+
+.card-title {
+  font-family: "leckerli-one-regular";
+  color: #E6863A;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #a29f9e;
-}
+}/*# sourceMappingURL=Index.css.map */
