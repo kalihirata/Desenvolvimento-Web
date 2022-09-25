@@ -20,20 +20,6 @@
     font-size: 100px;
 }
 
-
-
-body::before {
-    content: " ";
-    background-image: url("/Images/BackgroundHome.jpg");
-    background-size: contain;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-position: 50% 0;
-}
-
 .fw-light {
     font-family: "leckerli-one-regular";
     color: #E6863A;
@@ -45,6 +31,10 @@ body::before {
     color: #E6863A;
     font-size: 30px;
     text-align: center;
+}
+
+.background-color-none {
+    background-color: unset !important;
 }
 
 .pet-image {
