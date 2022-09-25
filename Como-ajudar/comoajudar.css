@@ -11,42 +11,27 @@
 .card-title {
   font-family: "leckerli-one-regular";
   color: #E6863A;
-}
-
-.card-dog {
-  font-family: "leckerli-one-regular";
-  color: #E6863A;
-  font-size: 100px;
+  text-align: center;
 }
 
 .fw-light {
   font-family: "leckerli-one-regular";
   color: #E6863A;
-  font-size: 100px;
-}
-
-.card-pets {
-  font-family: "leckerli-one-regular";
-  color: #E6863A;
-  font-size: 30px;
-  text-align: center;
+  font-size: 90px;
 }
 
 .background-color-none {
   background-color: unset !important;
 }
 
-.pet-image {
-  align-self: center;
-  height: 200px;
+.figure-card1 {
   width: 200px;
-  margin-top: -90px;
+  height: 200px;
+  align-self: center;
 }
 
-.margin-card {
-  margin-bottom: 101px;
-}
-
-.card-body {
-  min-height: 280px;
-}/*# sourceMappingURL=galeria.css.map */
+.figure-card2 {
+  width: 190px;
+  height: 190px;
+  align-self: center;
+}/*# sourceMappingURL=comoajudar.css.map */

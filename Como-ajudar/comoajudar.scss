@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "leckerli-one-regular";
+    src: url("../Fontes/leckerli-one-regular.ttf");
+    }
+
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    background-color: #a29f9e;
+}
+
+.card-title {
+    font-family: "leckerli-one-regular";
+    color: #E6863A;
+    text-align: center;
+}
+
+
+.fw-light {
+    font-family: "leckerli-one-regular";
+    color: #E6863A;
+    font-size: 90px;
+}
+
+
+.background-color-none {
+    background-color: unset !important;
+}
+
+.figure-card1 {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.figure-card2 {
+    width: 190px;
+    height: 190px;
+    align-self: center;
+}

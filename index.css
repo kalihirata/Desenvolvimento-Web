@@ -22,6 +22,7 @@ a {
 }
 
 .footer {
+  margin-top: 20px;
   left: 0;
   bottom: 0;
   padding: 20px 0;
@@ -29,8 +30,14 @@ a {
   background-color: white;
 }
 
+.footer-logo {
+  height: 115px;
+  width: 115px;
+  margin-right: 30px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #a29f9e;
-}/*# sourceMappingURL=Index.css.map */
+}/*# sourceMappingURL=index.css.map */

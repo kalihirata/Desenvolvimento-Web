@@ -15,11 +15,15 @@
     flex-direction: row;
   }
 }
+.carousel {
+  margin-bottom: 20px;
+}
+
 .images {
-  margin: 20px auto;
+  margin: 0 auto;
   font-size: 28px;
   text-decoration: none !important;
   width: 220px;
   border: none;
   align-self: center;
-}/*# sourceMappingURL=HomePage.css.map */
+}/*# sourceMappingURL=homepage.css.map */
