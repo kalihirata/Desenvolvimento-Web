@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "leckerli-one-regular";
+  src: url("../Fontes/leckerli-one-regular.ttf");
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a29f9e;
+}
+
+.card-title {
+  font-family: "leckerli-one-regular";
+  color: #E6863A;
+  text-align: center;
+}
+
+.fw-light {
+  font-family: "leckerli-one-regular";
+  color: #E6863A;
+  font-size: 90px;
+}
+
+.background-color-none {
+  background-color: unset !important;
+}
+
+.card-quemsomos {
+  margin: 0 20px;
+  justify-content: center;
+}
+
+.quemsomos-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.align-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}/*# sourceMappingURL=quemsomos.css.map */
